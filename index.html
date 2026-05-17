@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>贪吃蛇</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <div class="game-container">
+            <h1>贪吃蛇</h1>
+            <div class="score-board">分数: <span id="score">0</span></div>
+            <canvas id="snakeGame" width="400" height="400"></canvas>
+            <button id="startButton">开始游戏</button>
+            <p>使用方向键移动。按“空格”键开始/暂停。</p>
+        </div>
+    </div>
+
+    <div id="gameOverScreen" class="game-over-screen hidden">
+        <h2 id="gameOverMessage"></h2>
+        <div class="prison-image">
+            <img id="prisonArt" src="data/bala/你被捕了.png" alt="你被捕了">
+        </div>
+        <p>你的最终分数: <span id="finalScore">0</span></p>
+        <button id="restartButton">再玩一次?</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
