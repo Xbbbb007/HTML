@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background-color: #040000;
+}
+
+.box {
+  display: block;
+  width: 120px;
+  height: 120px;
+  background: #115554;
+  margin: 40px;
+}
