@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background-color:aliceblue;
+}
+
+.box {
+  display: block;
+}
+
+/* Minimal visible box styles */
+.box {
+  width: 120px;
+  height: 120px;
+  margin: 40px;
+  background: #115554;
+} 
+

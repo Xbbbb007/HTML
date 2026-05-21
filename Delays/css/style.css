@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    /* 垂直居中 */
+    align-items: center;
+
+
+    /* “把剩余空间平均分散到元素周围” */
+    justify-content: space-around;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color:aliceblue;
+}
+
+.box {
+  display: block;
+  width: 120px;
+  height: 120px;
+}
+.green{
+    background: green;
+}
+.purple{
+    background: purple;
+}

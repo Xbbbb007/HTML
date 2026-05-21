@@ -1,0 +1,23 @@
+body{
+    display: flex;
+
+    /* 垂直居中 */
+    align-items: center;
+    justify-content: space-around;
+
+
+    /* 铺满屏幕 */
+    min-height: 100vh;
+    margin: 0;
+
+    /* 隐藏滚动条 */
+    overflow: hidden; 
+    
+}
+
+#canvas{
+    height: 80vh;
+    max-height: 300px;
+    overflow: visible;
+    border: solid 2px rgb(24, 24, 24);
+}
