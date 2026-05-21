@@ -17,3 +17,11 @@ gsap.to(
         delay: 1.5,
     }
 )
+gsap.to(
+    ".blue",
+    {
+        rotation: 360,
+        duration: 1,
+        delay: 2.5,
+    }
+)
